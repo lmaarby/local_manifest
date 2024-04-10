@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="gh"
+                fetch="https://github.com" />
+
+<!-- Trees -->
+        <project path="device/oneplus/ziti" name="pjgowtham/android_device_oneplus_ziti" remote="gh" revision="lineage-21" clone-depth="1" />
+        <project path="device/oneplus/sm8350-common" name="pjgowtham/android_device_oneplus_sm8350-common" remote="gh" revision="lineage-21" clone-depth="1" />
+        <project path="kernel/oneplus/sm8350" name="pjgowtham/android_kernel_oneplus_sm8350" remote="gh" revision="lineage-21" clone-depth="1" />
+</manifest>
